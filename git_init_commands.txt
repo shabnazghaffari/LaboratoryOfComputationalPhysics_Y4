@@ -1,0 +1,11 @@
+git checkout main
+git fetch upstream
+git merge upstream/main
+git checkout development_branch
+git fetch upstream Franceschetto_Giacomo
+git merge upstream/Franceschetto_Giacomo
+git pull
+git merge main
+git add <newfile>
+git commit -m "comment"
+git push origin development_branch
